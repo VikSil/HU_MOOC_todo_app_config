@@ -1,0 +1,12 @@
+resources:
+- ./../../base
+images:
+- name: PROJECT/IMAGE_APP
+  newName: viksil/todo_app
+  newTag: 33e7e35c76278147eac324bb8e1f94a60b6d7f86
+- name: PROJECT/IMAGE_BACKEND
+  newName: viksil/todo_backend
+  newTag: 33e7e35c76278147eac324bb8e1f94a60b6d7f86
+namespace: staging
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
