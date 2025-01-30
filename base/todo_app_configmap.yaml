@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: todo-app-cfgmap
 data:
-  backend_host: "34.34.170.110"
+  backend_host: "34.102.169.225"
